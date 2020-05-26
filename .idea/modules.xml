@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/gramophone-provider/gramophone-provider.iml" filepath="$PROJECT_DIR$/gramophone-provider/gramophone-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gramophone-provider-api/gramophone-provider-api.iml" filepath="$PROJECT_DIR$/gramophone-provider-api/gramophone-provider-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webapp-consumer/personal_center-consumer.iml" filepath="$PROJECT_DIR$/webapp-consumer/personal_center-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pojo-mapper-provider/pojo-mapper-provider.iml" filepath="$PROJECT_DIR$/pojo-mapper-provider/pojo-mapper-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/station-provider/station-provider.iml" filepath="$PROJECT_DIR$/station-provider/station-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/station-provider-api/station-provider-api.iml" filepath="$PROJECT_DIR$/station-provider-api/station-provider-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-provider/user-provider.iml" filepath="$PROJECT_DIR$/user-provider/user-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-provider-api/user-provider-api.iml" filepath="$PROJECT_DIR$/user-provider-api/user-provider-api.iml" />
+    </modules>
+  </component>
+</project>

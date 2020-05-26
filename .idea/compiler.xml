@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="station-provider-api" />
+        <module name="gramophone-provider-api" />
+        <module name="station-provider" />
+        <module name="user-provider" />
+        <module name="user-provider-api" />
+        <module name="personal_center-consumer" />
+        <module name="pojo-mapper-provider" />
+        <module name="gramophone-provider" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="gramophone-provider" target="11" />
+      <module name="gramophone-provider-api" target="11" />
+      <module name="home-consumer" target="11" />
+      <module name="mybatis-generator" target="11" />
+      <module name="personal_center-consumer" target="11" />
+      <module name="pojo-mapper-provider" target="11" />
+      <module name="station-consumer" target="11" />
+      <module name="station-provider" target="11" />
+      <module name="station-provider-api" target="11" />
+      <module name="user-provider" target="11" />
+      <module name="user-provider-api" target="11" />
+      <module name="webapp-consumer" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="mybatis-generator" options="-parameters" />
+    </option>
+  </component>
+</project>

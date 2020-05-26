@@ -1,0 +1,74 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="personal_center-consumer:war exploded">
+    <output-path>$PROJECT_DIR$/webapp-consumer/target/personal_center-consumer</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>personal_center-consumer</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="personal_center-consumer" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="archive" name="user-provider-api-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="user-provider-api" />
+          </element>
+          <element id="archive" name="pojo-mapper-provider-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="pojo-mapper-provider" />
+          </element>
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:8.0.19" />
+          <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:3.6.1" />
+          <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.5.4" />
+          <element id="archive" name="station-provider-api-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="station-provider-api" />
+          </element>
+          <element id="library" level="project" name="Maven: org.springframework:spring-context-support:5.2.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.2.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:5.2.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:5.2.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.2.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-websocket:5.2.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:5.2.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.2.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.2.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.2.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.apache.dubbo:dubbo:2.7.0" />
+          <element id="library" level="project" name="Maven: org.javassist:javassist:3.20.0-GA" />
+          <element id="library" level="project" name="Maven: io.netty:netty-all:4.1.25.Final" />
+          <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.8.5" />
+          <element id="library" level="project" name="Maven: org.apache.curator:curator-recipes:4.2.0" />
+          <element id="library" level="project" name="Maven: org.apache.curator:curator-framework:4.2.0" />
+          <element id="library" level="project" name="Maven: org.apache.curator:curator-client:4.2.0" />
+          <element id="library" level="project" name="Maven: org.apache.zookeeper:zookeeper:3.5.4-beta" />
+          <element id="library" level="project" name="Maven: commons-cli:commons-cli:1.2" />
+          <element id="library" level="project" name="Maven: log4j:log4j:1.2.17" />
+          <element id="library" level="project" name="Maven: org.apache.yetus:audience-annotations:0.5.0" />
+          <element id="library" level="project" name="Maven: io.netty:netty:3.10.6.Final" />
+          <element id="library" level="project" name="Maven: com.google.guava:guava:27.0.1-jre" />
+          <element id="library" level="project" name="Maven: com.google.guava:failureaccess:1.0.1" />
+          <element id="library" level="project" name="Maven: com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava" />
+          <element id="library" level="project" name="Maven: com.google.code.findbugs:jsr305:3.0.2" />
+          <element id="library" level="project" name="Maven: org.checkerframework:checker-qual:2.5.2" />
+          <element id="library" level="project" name="Maven: com.google.errorprone:error_prone_annotations:2.2.0" />
+          <element id="library" level="project" name="Maven: com.google.j2objc:j2objc-annotations:1.1" />
+          <element id="library" level="project" name="Maven: org.codehaus.mojo:animal-sniffer-annotations:1.17" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.25" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.10.0" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.10.0" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.10.0" />
+          <element id="archive" name="gramophone-provider-api-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="gramophone-provider-api" />
+          </element>
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/webapp-consumer/target/personal_center-consumer/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="personal_center-consumer/web/Web" />
+    </root>
+  </artifact>
+</component>

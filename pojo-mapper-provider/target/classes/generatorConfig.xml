@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "C:\Users\orangecat\Downloads\mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+    <!-- 配置mysql 驱动jar包路径.用了绝对路径 -->
+    <classPathEntry location="C:/Users/orangecat/.m2/repository/mysql//mysql-connector-java/8.0.16/mysql-connector-java-8.0.16.jar" />
+
+    <context id="wangyongzhi_mysql_tables" targetRuntime="MyBatis3">
+        <!-- 防止生成的代码中有很多注释，加入下面的配置控制 -->
+        <commentGenerator>
+            <property name="suppressAllComments" value="true" />
+            <property name="suppressDate" value="true" />
+        </commentGenerator>
+
+        <!-- 数据库连接 -->
+        <jdbcConnection driverClass="com.mysql.cj.jdbc.Driver"
+                        connectionURL="jdbc:mysql://47.98.47.2:3306/anonymous_social_plathform"
+                        userId="root"
+                        password="pengyinming">
+        </jdbcConnection>
+
+        <javaTypeResolver >
+            <property name="forceBigDecimals" value="false" />
+        </javaTypeResolver>
+
+        <!-- 数据表对应的model层  -->
+        <javaModelGenerator targetPackage="app.generator.modol" targetProject="src\main\java">
+            <property name="enableSubPackages" value="true" />
+            <property name="trimStrings" value="true" />
+        </javaModelGenerator>
+
+<!--        &lt;!&ndash; sql mapper 映射配置文件 &ndash;&gt;-->
+<!--        <sqlMapGenerator targetPackage="app.generator.mapper"  targetProject="src">-->
+<!--            <property name="enableSubPackages" value="true" />-->
+<!--        </sqlMapGenerator>-->
+
+        <!-- mybatis3中的mapper接口 -->
+        <javaClientGenerator type="ANNOTATEDMAPPER" targetPackage="app.generator.mapper"  targetProject="src\main\java">
+            <property name="enableSubPackages" value="true" />
+        </javaClientGenerator>
+
+        <!-- 数据表进行生成操作 schema:相当于库名; tableName:表名; domainObjectName:对应的DO -->
+        <table schema="anonymous_social_plathform" tableName="user" domainObjectName="User"></table>
+        <table schema="anonymous_social_plathform" tableName="gramophone" domainObjectName="GramoPhone"></table>
+        <table schema="anonymous_social_plathform" tableName="station" domainObjectName="Station"></table>
+
+    </context>
+</generatorConfiguration>

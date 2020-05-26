@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="personal_center-consumer:war">
+    <output-path>$PROJECT_DIR$/webapp-consumer/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>personal_center-consumer</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="personal_center-consumer.war">
+      <element id="artifact" artifact-name="personal_center-consumer:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/webapp-consumer" />
+    <file type="web" url="file://$PROJECT_DIR$/../home-consumer" />
+    <file type="web" url="file://$PROJECT_DIR$/../station-consumer" />
+    <file type="web" url="file://$PROJECT_DIR$/../webapp-consumer" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/../user-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/../station-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/../webapp-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/../personal_center-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/user-provider-api/pom.xml" />
+        <option value="$PROJECT_DIR$/../pojo-mapper-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/../station-provider-api/pom.xml" />
+        <option value="$PROJECT_DIR$/../gramophone-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/../gramophone-provider-api/pom.xml" />
+        <option value="$PROJECT_DIR$/gramophone-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/gramophone-provider-api/pom.xml" />
+        <option value="$PROJECT_DIR$/pojo-mapper-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/station-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/station-provider-api/pom.xml" />
+        <option value="$PROJECT_DIR$/user-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/webapp-consumer/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/../personal_center-consumer/station-provider-api/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="false" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
